@@ -1,0 +1,23 @@
+body {
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-family: 'Courier New', monospace;
+}
+
+h1, h2 {
+  color: #f8fafc;
+}
+
+/* Korostusväri esim. linkeille ja otsikoille */
+.highlight {
+  color: #38bdf8;
+}
+
+/* Mobiiliresponsiivisuus on tärkeää */
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+    font-size: 14px;
+  }
+}
+
